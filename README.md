@@ -34,3 +34,5 @@ para los datos de entrenamiento, mientras que con los modelos no supervisados no
 ![Diferencia entre IA y ML](https://miro.medium.com/v2/resize:fit:640/format:webp/0*Q3PICBlib-932hhH.png)
 
 Bueno una forma de pensar lo es que la IA es una diciplina, como la fisica por ejemplo: La IA es una rama de la siencia de la computacion que se ocupa de la creacion de agentes inteligentes, que son sitemas que pueden razonar y aprender, y actuar de forma autonoma.
+
+hola mundo
