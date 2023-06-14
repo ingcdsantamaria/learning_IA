@@ -1,38 +1,83 @@
 # **learning_IA**
-es un espacio de aprendizaje diseñado para aquellos interesados en adquirir conocimientos básicos sobre el aprendizaje automático y los conceptos fundamentales de la inteligencia artificial (IA). Este repositorio ofrece una variedad de cursos y materiales que cubren una amplia gama de temas relacionados con IA.
+
+Este espacio de aprendizaje está diseñado para aquellos interesados en adquirir conocimientos básicos sobre el aprendizaje automático y los conceptos fundamentales de la inteligencia artificial (IA). Este repositorio ofrece una variedad de cursos y materiales que cubren una amplia gama de temas relacionados con la IA.
 
 En este curso tu aprenderas a:
+
 - [ ] Definir la IA generativa.
 - [ ] Explicar como funciona la IA generativa.
 - [ ] Describir los tipos de modelos de IA generativa.
 - [ ] Describir las aplicaciones de la IA generativa.
 
-## **¿Qué es la IA generativa?**
-![AI ≠ ML](https://miro.medium.com/v2/resize:fit:720/format:webp/1*9m4_3oqwEMcaiFRO8rC4Nw.png)
+## **¿Que es la IA(Inteligencia Artificial)**
 
-La IA generativa es un tipo de tecnologia de inteligencia artificial que puede producir varios tipos de contenidos, incluyendo texto, imagenes, audio y datos sinteticos, pero entonces, ¿Qué es la IA?, bueno ya que vamos a hablar de la IA generativa vamos a poner los un poco en contexto, entonces, para esto encontramos 2 preguntas muy frecuentes ¿Qué es la IA? y ¿Cual es la diferencia entre IA(Inteligencia Artificial) y ML(Machine Learning)?.
+La inteligencia artificial es un campo de la ciencia de la computación que se centra en la creación de programas y máquinas que pueden aprender y tomar decisiones por sí mismas. La IA se puede dividir en dos categorías: IA general e IA estrecha.
 
-### **¿Que es la IA(Inteligencia Artificial)**
-La inteligencia artificial es un campo de la ciencia de la computación que se centra en la creación de programas y maquinas que pueden aprender y tomar decisiones por si mismas. La IA se puede dividir en dos categorias: IA general y IA estrecha.
-
-IA es la teoria y el desarrollo de sistemas de computacion, capaz de llevar a cabo tareas que normalmente requieren inteligencia humana, como percepcion visual, reconocimiento de voz, toma de decisiones y traduccion entre idiomas.
-
-
+IA es la teoría y el desarrollo de sistemas de computación capaces de llevar a cabo tareas que normalmente requieren inteligencia humana, como percepción visual, reconocimiento de voz, toma de decisiones y traducción entre idiomas.
 
 ### **¿Que es ML(Machine Learning o Aprendizaje Automatico)?**
-El aprendizaje automatico es un subconjunto de la IA que se centra en la creación de programas y maquinas que pueden acceder a los datos y usarlos para aprender por si mismos, es decir, sin intervencion humana.
 
-En esta disciplina nosotros tenemos a ML(Machine Learning) el cual es un sub-campo de la IA, esto es un sistema o programa que entrena un modelo de entrada de datos.
+El aprendizaje automático es un subconjunto de la IA que se centra en la creación de programas y máquinas que pueden acceder a los datos y usarlos para aprender por sí mismos, es decir, sin intervención humana.
 
-Ese modelo entrenado puede dar prediciones utiles de nuevas o nunca antes vistas, ademas puede ser extraido del mismo para ser utilizado para entrenar el modelo. ML puede tomar habilidades computacionales para aprender sin programacion explicita. Dos de las clases mas comunes de los modelos de ML son los modelos supervisados y los no supervisados.
+En esta disciplina, tenemos a ML (Machine Learning), el cual es un subcampo de la IA. Es un sistema o programa que entrena un modelo con datos de entrada. Ese modelo entrenado puede dar predicciones útiles de nuevos datos o datos nunca antes vistos, además de poder ser extraído para ser utilizado en el entrenamiento del modelo. ML puede adquirir habilidades computacionales para aprender sin programación explícita. Dos de las clases más comunes de modelos de ML son los modelos supervisados y los no supervisados.
 
-La clave para diferenciar se entre ambos, es que, con el modelos supervisado nosotros tenemos etiquetas 
+La clave para diferenciar ambos es que, con los modelos **supervisados**, tenemos etiquetas. Los datos etiquetados son aquellos que llegan con una etiqueta, como un nombre, un tipo o un número. Los datos sin etiquetar son aquellos que no llevan una etiqueta. En los modelos de aprendizaje supervisado, los datos ya están etiquetados.
 
-para los datos de entrenamiento, mientras que con los modelos no supervisados no tenemos etiquetas para los datos de entrenamiento.
+El aprendizaje supervisado es un tipo de aprendizaje automático que se centra en la predicción, es decir, predecir un valor futuro basado en datos históricos. En el aprendizaje supervisado, aprendemos de ejemplos del pasado para poder predecir valores futuros.
+
+El aprendizaje no supervisado es un tipo de aprendizaje automático que se centra en la identificación de patrones en un conjunto de datos. En un modelo de aprendizaje **no supervisado**, los datos no están etiquetados. Los problemas están relacionados con observar los datos sin procesar y ver si se dividen naturalmente en grupos.
+
+El aprendizaje reforzado es un tercer tipo de modelo de ML, en el cual el modelo aprende a través de la prueba y el error. El modelo recibe una recompensa por cada acción que toma, y el objetivo es maximizar esa recompensa.
 
 ### **¿Cual es la diferencia entre IA(Inteligencia Artificial) y ML(Machine Learning)?**
+
 ![Diferencia entre IA y ML](https://miro.medium.com/v2/resize:fit:640/format:webp/0*Q3PICBlib-932hhH.png)
 
-Bueno una forma de pensar lo es que la IA es una diciplina, como la fisica por ejemplo: La IA es una rama de la siencia de la computacion que se ocupa de la creacion de agentes inteligentes, que son sitemas que pueden razonar y aprender, y actuar de forma autonoma.
+Bueno, una forma de pensarlo es que la IA es una disciplina, como la física, por ejemplo. La IA es una rama de la ciencia de la computación que se ocupa de la creación de agentes inteligentes, que son sistemas que pueden razonar, aprender y actuar de forma autónoma. También se puede decir que se diferencian porque la IA es un campo de estudio, mientras que el ML es una herramienta que se puede utilizar para resolver problemas de IA.
 
-hola mundo
+## **Deep Learning (Aprendizaje Profundo)**
+
+![Deep Learning](https://mukulrathi.com/static/79501c3e1dca3ab7dbe0674072a18fa9/96d5a/neuralnetworks.webp)
+
+Ahora que ya hemos hablado un poco sobre las diferencias entre IA y ML, aprendizaje supervisado, aprendizaje no supervisado y aprendizaje reforzado, exploremos brevemente dónde entra el aprendizaje profundo en todo esto.
+
+El deep learning encaja como un subconjunto de los métodos de ML, que se centra en el uso de redes neuronales artificiales para resolver problemas de aprendizaje automático, permitiendo procesar patrones más complejos que el tradicional ML. Mientras que el ML tiene un amplio campo global de diferentes técnicas, el deep learning es un tipo de machine learning que usa redes neuronales artificiales.
+
+Las **redes neuronales artificiales:** Son inspiradas en el cerebro humano, estos estan echos de muchas interconexiones entre nodos o neuronas, que puede aprender a llevar a cabo tareas procesando datos y haciendo predicciones. El modelo de Deep Learning suele tener muchas capas de neuronas, que les permite aprender patrones mas complejos que el modelo ML tradicional. Y las redes neuronales pueden usar tanto datos etiquetados como no etiquetados. Esto es llamado **aprendizaje semi-supervisado.**
+
+En **aprendizaje semi-supervisado**, una red neuronal aprende en una pequeña cantidad de datos etiquetados y en una larga cantidad de datos no etiquetados. Los datos etiquetados ayudadan a la red neuronal a aprender los conceptos basicos de las tareas, mientras que los datos no etiquetados ayudan a la red neuronal a generalizar los nuevos ejemplos.
+
+Ahora nosotros finalmente llegamos a donde la **IA Generativa**
+
+![Generative AI](https://miro.medium.com/v2/resize:fit:720/format:webp/1*f5y9ezDXqQ5uS6QRZPwSuQ.png)
+
+## **¿Qué es la IA generativa?**
+
+![AI ≠ ML](https://miro.medium.com/v2/resize:fit:720/format:webp/1*9m4_3oqwEMcaiFRO8rC4Nw.png)
+
+La IA generativa es un sub-conjunto del aprendizaje profundo, lo que signidica que usa redes neuronales artificiales y estas pueden procesar ambas tanto datos etiquetados como no etiquetados usando metodos supervisado, no supervisado y semi-supervisado.
+
+La IA generativa es un tipo de tecnología de inteligencia artificial que puede producir varios tipos de contenidos, incluyendo texto, imágenes, audio y datos sintéticos. Pero entonces, ¿qué es la IA? Bueno, ya que vamos a hablar de la IA generativa, vamos a ponerlos un poco en contexto. Entonces, para esto encontramos dos preguntas muy frecuentes: ¿qué es la IA? y ¿cuál es la diferencia entre IA (Inteligencia Artificial) y ML (Machine Learning)?
+
+Los **modelos de lenguage largo(LLMs)** tambien son un sub-conjunto de la DL (deep learning o aprendizaje profundo), los modelos de deep learning o machine learning en general, pueden ser divididos entre 2 tipos generativos y discriminativos.
+
+![Generative vs Discriminative](https://i.stack.imgur.com/Xrmqg.png)
+
+**Discriminativos:**
+
+- Son usados para clasificar o predecir.
+- Tipicamente entrenado en un conjunto de datos etiquetados.
+- Aprende la relación entre las características de los puntos de datos y las etiquetas
+
+**Generativos:**
+
+- Genera nuevos datos que son similares a los datos en los que fue entrenado.
+- Entiende la distribución de datos y la probabilidad de que un ejemplo dado prediga la siguiente palabra en una secuencia
+
+Ejemplo:
+
+![Ejemplo de Generativo vs Discriminativo](https://vitalflux.com/wp-content/uploads/2022/11/generative-vs-discriminative-models-300x119.png)
+
+Como podemos obsevar en la tecnica discriminativa se clasifican los datos en 2 grupos, en este caso perro o gato, mientras que en la tecnica generativa se genera un nuevo dato que puede que genere la imagen de un perro o un gato.
+
+Entonces para resumir el modelo generativo puede generar nuevas instancias de datos mientras que el modelo discriminativo discrimina entre diferentes tipos de instancias de datos.
