@@ -80,4 +80,35 @@ Ejemplo:
 
 Como podemos obsevar en la tecnica discriminativa se clasifican los datos en 2 grupos, en este caso perro o gato, mientras que en la tecnica generativa se genera un nuevo dato que puede que genere la imagen de un perro o un gato.
 
-Entonces para resumir el modelo generativo puede generar nuevas instancias de datos mientras que el modelo discriminativo discrimina entre diferentes tipos de instancias de datos.
+Entonces para resumir el modelo generativo puede generar nuevas instancias de datos mientras que el modelo discriminativo discrimina entre diferentes tipos de instancias de datos. Asi mismo decimos que el modelo tradicional de ML es discriminativo mientras que el modelo de GenAI (Generative AI) es generativo. Ahora veremos **¿Qué es un GenAI?** y **¿Que no lo es?**
+
+**No es un modelo Gen AI:** cuando la salida o Y o etiqueta es un:
+
+- Numero
+- Discreto
+- Clase
+- Probabilidad
+
+**Si es un modelo Gen AI:** cuando Y es un:
+
+- Lenguaje natural (Como el habla, o texto)
+- Imagen
+- Audio
+
+Para resumir en un alto nivel el modelo tradicional, clasico, supervisado y no supervisado, aprenden procesos de codigo para datos etiquetados o construir un modelo, dependiendo de un caso o problema el modelo puede tener una prediccion, esto puede clasificar algo o agrupar algo. En la programacion tradicional nosotros manejabamos un concepto o una serie de estructuras y reglas como esta:
+
+``` python
+...
+    Cat:
+        type: animal
+        legs: 4
+        eats: 2
+        fur: yes
+        likes: catnip, yarn
+        (etc ...)
+ ...
+```
+
+En las olas de redes neuronales | ~2012 en adelante, nosotros podríamos dar a la red fotos de gatos y perros y preguntar nos ¿esto es un gato o un perro? y predecir un gato o perro.
+
+Mientras que en el modelo de lenguage generativo | LaMDA, PaLM, GPT, etc. Nosotros podemos darle a la red un texto y preguntarle ¿qué sigue? y la red puede generar un texto que puede ser un texto coherente y que tenga sentido.
