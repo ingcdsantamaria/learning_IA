@@ -136,24 +136,14 @@ Un modelo de imagen generativo:
 
 ```mermaid
 graph TD;
-    -->;
-    Input: Image-->Output: Image;
-    Input: Image-->Output: Video;
-    Output: Text-->Image Captioning;
-    Output: Text-->Visual Question Answering;
-    Output: Text-->Image Search;
-    Output: Image-->Output: Image;
-    Output: Image-->Super Resolution;
-    Output: Video-->Animation;
-
-```
-
-Here is a simple flow chart:
-
-```mermaid
-graph TD;
     Input:Image-->Output:Text;
-    A-->C;
-    B-->D;
-    C-->D;
+    Input:Image-->Output:Image;
+    Input:Image-->Output:Video;
+    Output:Text-->Image_Captioning;
+    Output:Text-->Visual_Question_Answering;
+    Output:Text-->Image_Search;
+    Output:Image-->Output:Image;
+    Output:Image-->Super_Resolution;
+    Output:Video-->Animation;
+
 ```
