@@ -136,11 +136,14 @@ Un modelo de imagen generativo:
 
 ```mermaid
 graph TD;
-    Input: Image-->Output: Text-->Image Captioning;
-                    Output: Text-->Visual Question Answering;
-                    Output: Text-->Image Search;
-    Input: Image-->Output: Image-->Super Resolution;
-                    Output: Image-->Image Completion;
-    Input: Image-->Output: Video-->Animation;
+    Input: Image-->Output: Text;
+    Input: Image-->Output: Image;
+    Input: Image-->Output: Video;
+    Output: Text-->Image Captioning;
+    Output: Text-->Visual Question Answering;
+    Output: Text-->Image Search;
+    Output: Image-->Output: Image;
+    Output: Image-->Super Resolution;
+    Output: Video-->Animation;
 
 ```
