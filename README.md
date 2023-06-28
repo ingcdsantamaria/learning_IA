@@ -112,3 +112,35 @@ Para resumir en un alto nivel el modelo tradicional, clasico, supervisado y no s
 En las olas de redes neuronales | ~2012 en adelante, nosotros podríamos dar a la red fotos de gatos y perros y preguntar nos ¿esto es un gato o un perro? y predecir un gato o perro.
 
 Mientras que en el modelo de lenguage generativo | LaMDA, PaLM, GPT, etc. Nosotros podemos darle a la red un texto y preguntarle ¿qué sigue? y la red puede generar un texto que puede ser un texto coherente y que tenga sentido.
+
+Ahora vamos a nuestra definicion formal...
+
+## **Que es la IA generativa?**
+
+- Es un tipo de inteligencia artificial que crea nuevo contenido basado en lo que a aprendido del contenido existente.
+- Los procesos de aprendizaje de contenido existente se llama entrenamiento y da como resultado la creacion de un modelo estadistico.
+- Cuando se le da un aviso, GenAI usa este modelo estadistico para predecir lo, cual podrias ser una respuesta esperada y esto generaria nuevo contenido.
+
+Esencialmente esto aprende de una linea subyacente de los datos y puede generar nuevos ejemplos que son similares a los datos en los que fue entrenado.
+
+Como se menciono anteriormente, un modelo de **lenguage** generativo:
+
+- El modelo de lengua generativo aprende sobre patrones de lenguage a traves de datos de entrenamiento, que, dado un texto, y crear algo completamente nuevo basado en la informacion.
+
+Un modelo de imagen generativo:
+
+- Produce nuevas imagenes usando tecnicas como difusion, que, tienen patrones o relaciones entre imagenes, ellos transforman el ruido aleatorio en imágenes o genera imágenes a partir de indicaciones.
+- los modelos de lenguaje grande son un tipo de inteligencia artificial generativa ya que ellos generan novedosas conbinaciones de texto en la forma del lenguage que suena natural.
+
+### **Types of Generative AI Based on Data**
+
+```mermaid
+graph TD;
+    Input: Image-->Output: Text-->Image Captioning;
+                    Output: Text-->Visual Question Answering;
+                    Output: Text-->Image Search;
+    Input: Image-->Output: Image-->Super Resolution;
+                    Output: Image-->Image Completion;
+    Input: Image-->Output: Video-->Animation;
+
+```
