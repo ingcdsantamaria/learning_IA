@@ -183,10 +183,8 @@ Puedes practicar el auto completado y otras caracteristicas en el siguiente link
 ```mermaid
 flowchart LR
     A([" How's it going? "])
-    |       First Header        |
-    | ------------------------- |
-    | B(["Encoding Component"]) |
-    | C(["Decoding Component"]) |
+    B(["Encoding Component"])
+    C(["Decoding Component"])
     D([" Generative Pre-Trained Trasformer Model"])
     E([" I'm doing alright, thanks for asking. How are you? "])
     A--Input-->B
