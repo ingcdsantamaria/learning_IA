@@ -232,7 +232,7 @@ Es el proceso de creación de una solicitud que generará el resultado deseado a
 | Generate a poem in the style of X |
 | Give me a list of keywords based on semantic similarity to X |
 
---Input-->
+----->
 
 | Otro Cuadro |
 |-------------|
