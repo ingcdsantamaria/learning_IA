@@ -59,7 +59,7 @@ La IA generativa es un sub-conjunto del aprendizaje profundo, lo que signidica q
 
 La IA generativa es un tipo de tecnología de inteligencia artificial que puede producir varios tipos de contenidos, incluyendo texto, imágenes, audio y datos sintéticos. Pero entonces, ¿qué es la IA? Bueno, ya que vamos a hablar de la IA generativa, vamos a ponerlos un poco en contexto. Entonces, para esto encontramos dos preguntas muy frecuentes: ¿qué es la IA? y ¿cuál es la diferencia entre IA (Inteligencia Artificial) y ML (Machine Learning)?
 
-Los **modelos de lenguage largo(LLMs)** tambien son un sub-conjunto de la DL (deep learning o aprendizaje profundo), los modelos de deep learning o machine learning en general, pueden ser divididos entre 2 tipos generativos y discriminativos.
+Los **modelos de lenguaje largo(LLMs)** tambien son un sub-conjunto de la DL (deep learning o aprendizaje profundo), los modelos de deep learning o machine learning en general, pueden ser divididos entre 2 tipos generativos y discriminativos.
 
 ![Generative vs Discriminative](https://i.stack.imgur.com/Xrmqg.png)
 
@@ -111,7 +111,7 @@ Para resumir en un alto nivel el modelo tradicional, clasico, supervisado y no s
 
 En las olas de redes neuronales | ~2012 en adelante, nosotros podríamos dar a la red fotos de gatos y perros y preguntar nos ¿esto es un gato o un perro? y predecir un gato o perro.
 
-Mientras que en el modelo de lenguage generativo | LaMDA, PaLM, GPT, etc. Nosotros podemos darle a la red un texto y preguntarle ¿qué sigue? y la red puede generar un texto que puede ser un texto coherente y que tenga sentido.
+Mientras que en el modelo de lenguaje generativo | LaMDA, PaLM, GPT, etc. Nosotros podemos darle a la red un texto y preguntarle ¿qué sigue? y la red puede generar un texto que puede ser un texto coherente y que tenga sentido.
 
 Ahora vamos a nuestra definicion formal...
 
@@ -123,14 +123,14 @@ Ahora vamos a nuestra definicion formal...
 
 Esencialmente esto aprende de una linea subyacente de los datos y puede generar nuevos ejemplos que son similares a los datos en los que fue entrenado.
 
-Como se menciono anteriormente, un modelo de **lenguage** generativo:
+Como se menciono anteriormente, un modelo de **lenguaje** generativo:
 
-- El modelo de lengua generativo aprende sobre patrones de lenguage a traves de datos de entrenamiento, que, dado un texto, y crear algo completamente nuevo basado en la informacion.
+- El modelo de lengua generativo aprende sobre patrones de lenguaje a traves de datos de entrenamiento, que, dado un texto, y crear algo completamente nuevo basado en la informacion.
 
 Un modelo de imagen generativo:
 
 - Produce nuevas imagenes usando tecnicas como difusion, que, tienen patrones o relaciones entre imagenes, ellos transforman el ruido aleatorio en imágenes o genera imágenes a partir de indicaciones.
-- los modelos de lenguaje grande son un tipo de inteligencia artificial generativa ya que ellos generan novedosas conbinaciones de texto en la forma del lenguage que suena natural.
+- los modelos de lenguaje grande son un tipo de inteligencia artificial generativa ya que ellos generan novedosas conbinaciones de texto en la forma del lenguaje que suena natural.
 
 ### **Types of Generative AI Based on Data**
 
@@ -142,8 +142,55 @@ graph TD;
     Output:Text-->Image_Captioning;
     Output:Text-->Visual_Question_Answering;
     Output:Text-->Image_Search;
-    Output:Image-->Output:Image;
     Output:Image-->Super_Resolution;
+    Output:Image-->Image_Completion;
     Output:Video-->Animation;
 
+```
+
+**Un modelo de imagen generativa:** Toma una imagen como entrada y puede generar como salida texto, otra imagen o un video. Por ejemplo:
+
+- Debajo del texto de salida, puede obtener respuestas visuales a las preguntas.
+- Mientras que debajo de la imagen de salida, se genera una finalización de imagen.
+- Y debjo de la salida de video, se genera una animacion.
+
+```mermaid
+graph TD;
+    Input:Text-->Output:Text;
+    Input:Text-->Output:Image;
+    Input:Text-->Output:Audio;
+    Input:Text-->Output:Decisions;
+    Output:Text-->Translation;
+    Output:Text-->summarization;
+    Output:Text-->Question_Answering;
+    Output:Text-->Grammar_Correction;
+    Output:Image-->Image_Generation;
+    Output:Image-->Video_Generation;
+    Output:Audio-->Text_to_Speech;
+    Output:Dedecisions-->Play_Games;
+
+```
+
+**Un modelo de lenguaje generativo:** Toma texto como entrada y puede salir mas texto, una imagen, audio o decisiones. Por ejemplo:
+
+- Debajo de la salida de texto, genera preguntas y respuestas.
+- Y debajo de la salida de imagen, genera un video.
+
+Por lo tanto, los modelos de lenguaje generativo son sistemas de coincidencia de patrones. Ellos aprenden sobre patrones basados en los datos que proporcionamos.
+
+Puedes practicar el auto completado y otras caracteristicas en el siguiente link: [Bard Google](https://bard.google.com/?hl=en)
+
+```mermaid
+flowchart LR
+    A([" How's it going? "])
+    |       First Header        |
+    | ------------------------- |
+    | B(["Encoding Component"]) |
+    | C(["Decoding Component"]) |
+    D([" Generative Pre-Trained Trasformer Model"])
+    E([" I'm doing alright, thanks for asking. How are you? "])
+    A--Input-->B
+    B-->C
+    C-->D
+    D--Output-->E
 ```
