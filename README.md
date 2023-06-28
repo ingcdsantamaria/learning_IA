@@ -231,14 +231,14 @@ Es el proceso de creación de una solicitud que generará el resultado deseado a
 ```mermaid
 flowchart LR
     A(["|                   Propmt          |
-        |-----------------------------------|
-        | e.g.      Summarize a text of X   |
+        |---------------------------------------|
+        |   e.g.      Summarize a text of X     |
         | Generate a poem in the style of X |
-        | Give me a list of keywords based  |
-        | on semantic similarity for X      |"])
+        |  Give me a list of keywords based   |
+        |    on semantic similarity for X         |"])
     B(["Large Language Model"])
     C(["|                       Output               |
-    |------------------------------------------------|
+    |------------------------------------------------------|
     | | Summarization | Writing | Keyword extraction |"])
     A--Input-->B
     B-->C
