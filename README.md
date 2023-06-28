@@ -152,7 +152,7 @@ Here is a simple flow chart:
 
 ```mermaid
 graph TD;
-    Input: Image-->Output: Text;
+    Input:Image-->Output:Text;
     A-->C;
     B-->D;
     C-->D;
