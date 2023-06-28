@@ -180,6 +180,16 @@ Por lo tanto, los modelos de lenguaje generativo son sistemas de coincidencia de
 
 Puedes practicar el auto completado y otras caracteristicas en el siguiente link: [Bard Google](https://bard.google.com/?hl=en)
 
+El poder  de la IA generativa provienen del uso de transformadores, los transformadores produjeron una revolucion en 2018 en proceso del lengua natural, a un nivel alto, un modelo de tranformador consiste de un codificador y decodificador, el codificador codifica la secuencia de entrada y lo pasa al decodificador, que aprende a decodificar la representación para una tarea relevante.
+
+### **How it works?** Como funciona?
+
+**Pre-Training** pre-entrenamiento
+
+- Gran cantidad de datos.
+- Billones de parametros.
+- Aprendizaje no supervisado.
+
 ```mermaid
 flowchart LR
     A([" How's it going? "])
@@ -192,3 +202,38 @@ flowchart LR
     C-->D
     D--Output-->E
 ```
+
+En transformadores, las alucinaciones son palabras o frases que son generadas por el modelo que A menudo son absurdos o gramaticalmente incorrectos.
+
+Las alucinaciones pueden ser causadas por una serie de factores, incluyendo que el modelo no está entrenado con suficientes datos, o el modelo está entrenado en datos ruidosos o sucios, o el modelo no tiene suficiente contexto, o el modelo no tiene suficientes restricciones.
+
+Las alucinaciones pueden ser un problema para los transformadores, porque pueden hacer que el texto de salida sea difícil de entender, tambien pueden hacer mas probable la generacion incorrecta o informacion incorrecta.
+
+### **Hallucinations** Alucinaciones
+
+Challenges: Desafios
+
+- :exclamation: Los modelos no estan entrenados con suficientes datos.
+- :exclamation: Los modelos estan entrenados con datos ruidosos o sucios.
+- :exclamation: Los modelos no tienen suficiente contexto.
+- :exclamation: Los modelos no tienen suficientes restricciones.
+
+### **Prompts**
+
+**Un Prompt (estimulo)** Es una pieza pequeña de texto que se le da al modelo de lenguaje grande como entrada, y puede ser usado para controlar la salida de el modelo en una variedad de formas.
+
+### **Prompt desing** (Diseño de estimulo)
+
+Es el proceso de creación de una solicitud que generará el resultado deseado a partir de un modelo de lenguaje grande.
+
+| Prompting |
+|------------------|
+| e.g.      Summarize a text of X |
+| Generate a poem in the style of X |
+| Give me a list of keywords based on semantic similarity to X |
+
+--Input-->
+
+| Otro Cuadro |
+|-------------|
+| Contenido   |
