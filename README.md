@@ -136,7 +136,7 @@ Un modelo de imagen generativo:
 
 ```mermaid
 graph TD;
-    Input: Image-->Output: Text;
+    -->;
     Input: Image-->Output: Image;
     Input: Image-->Output: Video;
     Output: Text-->Image Captioning;
@@ -152,7 +152,7 @@ Here is a simple flow chart:
 
 ```mermaid
 graph TD;
-    A-->B;
+    Input: Image-->Output: Text;
     A-->C;
     B-->D;
     C-->D;
